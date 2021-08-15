@@ -16,6 +16,30 @@ namespace StarChart.Controllers
         {
             _context = context;
         }
+        [HttpGet("{id:int}")]        
+        public IActionResult GetById(int id)
+        {
+            if () return NotFound();
+            else
+            {
+                return Ok();
+            }
+        }
+        [HttpGet("{name}")]
+        public IActionResult GetByName(string name)
+        {
+            if () return NotFound();
+            else
+            {
+                return Ok();
+            }
+
+        }
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            return Ok();
+        }
         public IActionResult Index()
         {
             throw new NotImplementedException();
