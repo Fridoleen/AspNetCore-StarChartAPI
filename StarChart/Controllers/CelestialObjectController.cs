@@ -19,7 +19,7 @@ namespace StarChart.Controllers
         [HttpGet("{id:int}")]        
         public IActionResult GetById(int id)
         {
-            if () return NotFound();
+            if (true) return NotFound();
             else
             {
                 return Ok();
@@ -28,7 +28,7 @@ namespace StarChart.Controllers
         [HttpGet("{name}")]
         public IActionResult GetByName(string name)
         {
-            if () return NotFound();
+            if (true) return NotFound();
             else
             {
                 return Ok();
