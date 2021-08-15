@@ -18,7 +18,7 @@ namespace StarChart.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            throw new NotImplementedException();
         }
     }
 }
